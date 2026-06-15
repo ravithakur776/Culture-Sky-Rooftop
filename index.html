@@ -1,0 +1,1657 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Culture Sky Rooftop Cafe — Mathura's most beautiful rooftop vegetarian dining destination. Open daily 9AM–1AM. Located at Krishna Nagar, Mathura."
+    />
+    <meta
+      name="keywords"
+      content="Best Rooftop Cafe Mathura, Rooftop Restaurant Mathura, Vegetarian Cafe Mathura, Krishna Nagar Cafe, Family Restaurant Mathura, Open Air Dining Mathura, Best Pizza Cafe Mathura"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="restaurant" />
+    <meta
+      property="og:title"
+      content="Culture Sky Rooftop Cafe | Mathura's Premier Rooftop Dining"
+    />
+    <meta
+      property="og:description"
+      content="100% vegetarian rooftop cafe with stunning views of Mathura. Open daily 9AM–1AM. Rated 4.7★ on Google."
+    />
+    <meta property="og:url" content="https://cultureskyrooftopcafe.com" />
+    <meta name="theme-color" content="#C58B2A" />
+    <link rel="canonical" href="https://cultureskyrooftopcafe.com" />
+    <title>Culture Sky Rooftop Cafe | Mathura's Premier Rooftop Dining</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display+SC:wght@400;700;900&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Karla:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="components.css" />
+
+    <!-- Three.js (CDN) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- ══════════════ LOADER ══════════════ -->
+    <div id="loader">
+      <div class="loader-logo">CULTURE SKY</div>
+      <div class="loader-sub">Rooftop Cafe · Mathura</div>
+      <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+    </div>
+
+    <!-- ══════════════ NAV ══════════════ -->
+    <nav id="navbar">
+      <div class="nav-logo">
+        <span class="nav-logo-main">Culture Sky</span>
+        <span class="nav-logo-sub">Rooftop Cafe · Mathura</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="pages/reviews.html">Reviews</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+        <li><a href="#reserve" class="nav-cta">Reserve Table</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+      <a href="#about">🏠 About Us</a>
+      <a href="#menu">🍽️ Our Menu</a>
+      <a href="#gallery">📸 Gallery</a>
+      <a href="#why">✨ Why Us</a>
+      <a href="pages/reviews.html">⭐ Reviews</a>
+      <a href="#location">📍 Location</a>
+      <a href="pages/contact.html">📞 Contact</a>
+      <a href="#reserve" class="mobile-menu-cta">🪑 Reserve a Table</a>
+    </nav>
+
+    <!-- ══════════════ HERO ══════════════ -->
+    <section id="hero">
+      <canvas id="hero-canvas"></canvas>
+      <div
+        id="heroFallbackBg"
+        style="position: absolute; inset: 0; z-index: 0"
+      ></div>
+      <div class="hero-gradient-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="hero-eyebrow-star">✦</span>
+          Mathura's Most Loved Rooftop Cafe
+          <span class="hero-eyebrow-star">✦</span>
+        </div>
+
+        <h1 class="hero-h1">
+          Experience Mathura's
+          <span class="line-gold">Most Beautiful</span>
+          <span class="line-italic">Rooftop Dining</span>
+        </h1>
+
+        <p class="hero-sub">
+          Savor delicious vegetarian cuisine, refreshing beverages, and
+          unforgettable moments with family and friends — all under an open sky
+          in the heart of Krishna Nagar.
+        </p>
+
+        <div class="hero-badges">
+          <div class="hero-badge">
+            <svg width="13" height="13" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+              />
+            </svg>
+            4.7 Google Rating
+          </div>
+          <div class="hero-badge">
+            <svg width="13" height="13" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M10 2a8 8 0 100 16A8 8 0 0010 2zm0 14a6 6 0 110-12 6 6 0 010 12zm1-7V7a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            Open Daily · 9 AM – 1 AM
+          </div>
+          <div class="hero-badge">
+            <svg width="13" height="13" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            100% Vegetarian
+          </div>
+          <div class="hero-badge">
+            <svg width="13" height="13" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            Krishna Nagar, Mathura
+          </div>
+        </div>
+
+        <div class="hero-cta-row">
+          <a href="#reserve" class="btn-hero-primary">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            Reserve a Table
+          </a>
+          <a href="#menu" class="btn btn-outline">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
+              <path
+                fill-rule="evenodd"
+                d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            Explore Menu
+          </a>
+          <a href="tel:+919761119613" class="btn btn-ghost">📞 Call Now</a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-hint">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        <span class="scroll-text">Scroll</span>
+      </div>
+    </section>
+
+    <!-- ══════════════ STATS RIBBON ══════════════ -->
+    <div class="stats-ribbon">
+      <div class="ribbon-track" id="ribbonTrack">
+        <div class="ribbon-item">
+          ⭐ 4.7 Google Rating <span class="ribbon-sep"></span>
+        </div>
+        <div class="ribbon-item">
+          🌿 100% Pure Vegetarian <span class="ribbon-sep"></span>
+        </div>
+        <div class="ribbon-item">
+          🌆 Rooftop Dining Experience <span class="ribbon-sep"></span>
+        </div>
+        <div class="ribbon-item">
+          ⏰ Open Daily · 9AM – 1AM <span class="ribbon-sep"></span>
+        </div>
+        <div class="ribbon-item">
+          👨‍👩‍👧‍👦 Family Friendly Venue <span class="ribbon-sep"></span>
+        </div>
+        <div class="ribbon-item">
+          🛵 Home Delivery Available <span class="ribbon-sep"></span>
+        </div>
+        <div class="ribbon-item">
+          📍 Krishna Nagar, Mathura <span class="ribbon-sep"></span>
+        </div>
+        <div class="ribbon-item">
+          💰 Avg ₹650 for Two <span class="ribbon-sep"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════ ABOUT ══════════════ -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="grid-2" style="gap: 5rem; align-items: center">
+          <div class="about-media reveal from-left">
+            <div class="about-media-main">
+              <!-- Unsplash rooftop cafe image -->
+              <img
+                src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=900&q=80&fit=crop"
+                alt="Culture Sky Rooftop Cafe ambience"
+                loading="lazy"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
+              <div
+                style="
+                  display: none;
+                  width: 100%;
+                  height: 100%;
+                  background: linear-gradient(135deg, #0a0a0f, #1a1208);
+                  align-items: center;
+                  justify-content: center;
+                  font-size: 5rem;
+                "
+              >
+                🌆
+              </div>
+            </div>
+            <div class="about-media-accent">
+              <img
+                src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80&fit=crop"
+                alt="Delicious vegetarian food at Culture Sky"
+                loading="lazy"
+                onerror="
+                  this.style.display = 'none';
+                  this.nextElementSibling.style.display = 'flex';
+                "
+              />
+              <div
+                style="
+                  display: none;
+                  width: 100%;
+                  height: 100%;
+                  background: linear-gradient(135deg, #1a0808, #2d1010);
+                  align-items: center;
+                  justify-content: center;
+                  font-size: 3rem;
+                "
+              >
+                🍽️
+              </div>
+            </div>
+            <div class="about-rating-bubble">
+              <span class="rating-big">4.7★</span>
+              <span class="rating-label">Google<br />Rating</span>
+            </div>
+          </div>
+
+          <div class="about-text-side reveal from-right">
+            <div class="section-tag">Our Story</div>
+            <h2 class="section-title">
+              The Heart of Mathura's<br /><span class="gold"
+                >Rooftop Scene</span
+              >
+            </h2>
+            <div class="gold-rule"></div>
+            <p class="section-desc">
+              Culture Sky Rooftop Cafe is a premium dining destination nestled
+              in the heart of Krishna Nagar, Mathura. Known for its relaxing
+              rooftop atmosphere, fresh vegetarian food, and a diverse menu, we
+              offer the perfect setting for family dinners, casual meetups, and
+              memorable evenings under the open sky.
+            </p>
+            <p class="section-desc" style="margin-top: 1rem">
+              Our mission is to combine exceptional taste, warm hospitality, and
+              a rooftop experience that creates lasting memories — one meal at a
+              time.
+            </p>
+
+            <div class="about-features-list">
+              <div class="about-feature-pill">
+                <div class="feature-dot"></div>
+                100% Pure Vegetarian
+              </div>
+              <div class="about-feature-pill">
+                <div class="feature-dot"></div>
+                Family Friendly
+              </div>
+              <div class="about-feature-pill">
+                <div class="feature-dot"></div>
+                Open Rooftop Seating
+              </div>
+              <div class="about-feature-pill">
+                <div class="feature-dot"></div>
+                Home Delivery
+              </div>
+              <div class="about-feature-pill">
+                <div class="feature-dot"></div>
+                Breakfast to Late Night
+              </div>
+              <div class="about-feature-pill">
+                <div class="feature-dot"></div>
+                Quick Takeaway
+              </div>
+            </div>
+
+            <div class="about-open-strip">
+              <div class="open-icon">🕘</div>
+              <div>
+                <div class="open-label">Opening Hours</div>
+                <div class="open-time">Daily · 9:00 AM – 1:00 AM</div>
+              </div>
+              <span class="badge badge-green" style="margin-left: auto"
+                >Open Now</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ WHY CHOOSE US ══════════════ -->
+    <section id="why" class="why-section">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 3.5rem">
+          <div class="section-tag" style="justify-content: center">
+            Why Choose Us
+          </div>
+          <h2 class="section-title">
+            What Makes <span class="gold">Culture Sky</span> Special
+          </h2>
+          <div class="gold-rule center"></div>
+        </div>
+
+        <div class="grid-3">
+          <div class="why-card reveal" data-tilt>
+            <div class="why-icon-wrap">🌆</div>
+            <div class="why-card-title">Rooftop Experience</div>
+            <p class="why-card-desc">
+              Dine under the stars with panoramic views of Mathura. Our open-air
+              rooftop sets a mood no indoor restaurant can match.
+            </p>
+          </div>
+          <div class="why-card reveal reveal-delay-1" data-tilt>
+            <div class="why-icon-wrap">🌿</div>
+            <div class="why-card-title">100% Vegetarian</div>
+            <p class="why-card-desc">
+              Fresh, hygienic, and pure vegetarian food prepared daily. No
+              compromise on quality, flavour, or purity at any meal.
+            </p>
+          </div>
+          <div class="why-card reveal reveal-delay-2" data-tilt>
+            <div class="why-icon-wrap">👨‍👩‍👧‍👦</div>
+            <div class="why-card-title">Family Friendly</div>
+            <p class="why-card-desc">
+              Designed for families, celebrations and group gatherings.
+              Birthdays, anniversaries — every special moment is welcome here.
+            </p>
+          </div>
+          <div class="why-card reveal reveal-delay-1" data-tilt>
+            <div class="why-icon-wrap">🍽️</div>
+            <div class="why-card-title">Diverse Menu</div>
+            <p class="why-card-desc">
+              North Indian to pizzas, burgers, Indo-Chinese, mocktails, and
+              continental — a wide world of flavours all in one rooftop.
+            </p>
+          </div>
+          <div class="why-card reveal reveal-delay-2" data-tilt>
+            <div class="why-icon-wrap">⚡</div>
+            <div class="why-card-title">Fast Service</div>
+            <p class="why-card-desc">
+              Quick kitchen turnaround, reliable home delivery and hassle-free
+              takeaway. Your hunger never waits long at Culture Sky.
+            </p>
+          </div>
+          <div class="why-card reveal reveal-delay-3" data-tilt>
+            <div class="why-icon-wrap">💰</div>
+            <div class="why-card-title">Affordable Luxury</div>
+            <p class="why-card-desc">
+              Premium rooftop ambience at friendly prices. A complete meal for
+              two at just ₹650 approx. — luxury for everyone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ STATS ══════════════ -->
+    <section class="stats-section">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-block reveal">
+            <span
+              class="stat-number"
+              data-count="4.7"
+              data-suffix="★"
+              data-decimals="1"
+              >4.7★</span
+            >
+            <span class="stat-label">Google Rating</span>
+          </div>
+          <div class="stat-block reveal reveal-delay-1">
+            <span class="stat-number" data-count="15" data-suffix="+">15+</span>
+            <span class="stat-label">Happy Reviews</span>
+          </div>
+          <div class="stat-block reveal reveal-delay-2">
+            <span class="stat-number" data-count="100" data-suffix="%"
+              >100%</span
+            >
+            <span class="stat-label">Pure Vegetarian</span>
+          </div>
+          <div class="stat-block reveal reveal-delay-3">
+            <span class="stat-number">16h</span>
+            <span class="stat-label">Open Daily</span>
+          </div>
+          <div class="stat-block reveal reveal-delay-4">
+            <span class="stat-number" data-prefix="₹" data-count="200"
+              >₹200</span
+            >
+            <span class="stat-label">Starts From/Person</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ MENU ══════════════ -->
+    <section id="menu" class="menu-section">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 1.5rem">
+          <div class="section-tag" style="justify-content: center">
+            Our Cuisine
+          </div>
+          <h2 class="section-title">
+            Signature <span class="gold">Menu</span> Categories
+          </h2>
+          <div class="gold-rule center"></div>
+          <p class="section-desc" style="margin: 0 auto; text-align: center">
+            Explore a wide variety of fresh, flavourful dishes crafted with
+            love.
+            <span class="badge badge-green" style="margin-left: 0.5rem"
+              >🟢 100% Veg</span
+            >
+          </p>
+        </div>
+
+        <!-- Tabs -->
+        <div class="menu-tabs reveal" style="margin-top: 2.5rem">
+          <div class="menu-tab active">
+            <span class="menu-tab-emoji">🍛</span> North Indian
+          </div>
+          <div class="menu-tab">
+            <span class="menu-tab-emoji">🍜</span> Chinese
+          </div>
+          <div class="menu-tab">
+            <span class="menu-tab-emoji">🍕</span> Pizza
+          </div>
+          <div class="menu-tab">
+            <span class="menu-tab-emoji">🍔</span> Burger
+          </div>
+          <div class="menu-tab">
+            <span class="menu-tab-emoji">🥤</span> Shakes
+          </div>
+          <div class="menu-tab">
+            <span class="menu-tab-emoji">🌮</span> Street Food
+          </div>
+          <div class="menu-tab">
+            <span class="menu-tab-emoji">🌐</span> Continental
+          </div>
+          <div class="menu-tab">
+            <span class="menu-tab-emoji">☕</span> Beverages
+          </div>
+        </div>
+
+        <!-- Menu Cards -->
+        <div class="menu-items-grid" style="margin-top: 2.5rem">
+          <div class="menu-item-card reveal">
+            <div class="menu-item-img">
+              <div
+                id="food-pizza"
+                class="menu-item-img-placeholder"
+                style="background: linear-gradient(135deg, #1a0808, #2d1010)"
+              >
+                🍕
+              </div>
+              <div class="menu-veg-dot"></div>
+            </div>
+            <div class="menu-item-body">
+              <div class="menu-item-name">Rooftop Special Pizza</div>
+              <div class="menu-item-desc">
+                Chef's signature loaded veg pizza with seasonal toppings
+              </div>
+              <div class="menu-item-footer">
+                <span class="menu-item-price">₹199–₹349</span>
+                <span class="menu-item-tag">Bestseller</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item-card reveal reveal-delay-1">
+            <div class="menu-item-img">
+              <div
+                id="food-mocktail"
+                class="menu-item-img-placeholder"
+                style="background: linear-gradient(135deg, #081a12, #0d3020)"
+              >
+                🥤
+              </div>
+              <div class="menu-veg-dot"></div>
+            </div>
+            <div class="menu-item-body">
+              <div class="menu-item-name">Signature Mocktails</div>
+              <div class="menu-item-desc">
+                Refreshing house blends crafted for rooftop evenings
+              </div>
+              <div class="menu-item-footer">
+                <span class="menu-item-price">₹99–₹179</span>
+                <span class="menu-item-tag">Must Try</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item-card reveal reveal-delay-2">
+            <div class="menu-item-img">
+              <div
+                id="food-thali"
+                class="menu-item-img-placeholder"
+                style="background: linear-gradient(135deg, #1a1008, #302008)"
+              >
+                🍛
+              </div>
+              <div class="menu-veg-dot"></div>
+            </div>
+            <div class="menu-item-body">
+              <div class="menu-item-name">North Indian Thali</div>
+              <div class="menu-item-desc">
+                Dal, sabzi, roti, rice and sweet — a complete wholesome meal
+              </div>
+              <div class="menu-item-footer">
+                <span class="menu-item-price">₹149–₹249</span>
+                <span class="menu-item-tag">Family Fav</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item-card reveal reveal-delay-3">
+            <div class="menu-item-img">
+              <div
+                id="food-burger"
+                class="menu-item-img-placeholder"
+                style="background: linear-gradient(135deg, #0a0a1a, #15152d)"
+              >
+                🍔
+              </div>
+              <div class="menu-veg-dot"></div>
+            </div>
+            <div class="menu-item-body">
+              <div class="menu-item-name">Loaded Veg Burger</div>
+              <div class="menu-item-desc">
+                Crispy patty, fresh veggies, and our secret house sauce
+              </div>
+              <div class="menu-item-footer">
+                <span class="menu-item-price">₹89–₹149</span>
+                <span class="menu-item-tag">Quick Bite</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item-card reveal">
+            <div class="menu-item-img">
+              <div
+                id="food-shake"
+                class="menu-item-img-placeholder"
+                style="background: linear-gradient(135deg, #1a0810, #2d1020)"
+              >
+                🥛
+              </div>
+              <div class="menu-veg-dot"></div>
+            </div>
+            <div class="menu-item-body">
+              <div class="menu-item-name">Thick Shakes</div>
+              <div class="menu-item-desc">
+                Creamy, cold shakes in seasonal fruit and classic flavours
+              </div>
+              <div class="menu-item-footer">
+                <span class="menu-item-price">₹79–₹139</span>
+                <span class="menu-item-tag">Refreshing</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item-card reveal reveal-delay-1">
+            <div class="menu-item-img">
+              <div
+                id="food-street"
+                class="menu-item-img-placeholder"
+                style="background: linear-gradient(135deg, #1a1208, #2d2010)"
+              >
+                🌮
+              </div>
+              <div class="menu-veg-dot"></div>
+            </div>
+            <div class="menu-item-body">
+              <div class="menu-item-name">Street Bites</div>
+              <div class="menu-item-desc">
+                Chaat, pani puri, samosa, and crunchy street favourites
+              </div>
+              <div class="menu-item-footer">
+                <span class="menu-item-price">₹49–₹119</span>
+                <span class="menu-item-tag">Street Style</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item-card reveal reveal-delay-2">
+            <div class="menu-item-img">
+              <div
+                class="menu-item-img-placeholder"
+                style="background: linear-gradient(135deg, #0a1505, #152508)"
+              >
+                🍜
+              </div>
+              <div class="menu-veg-dot"></div>
+            </div>
+            <div class="menu-item-body">
+              <div class="menu-item-name">Indo-Chinese Bowl</div>
+              <div class="menu-item-desc">
+                Hakka noodles, fried rice, manchurian — desi-Chinese fusion
+              </div>
+              <div class="menu-item-footer">
+                <span class="menu-item-price">₹109–₹199</span>
+                <span class="menu-item-tag">Fusion</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu-item-card reveal reveal-delay-3">
+            <div class="menu-item-img">
+              <div
+                class="menu-item-img-placeholder"
+                style="background: linear-gradient(135deg, #0a0810, #181025)"
+              >
+                ☕
+              </div>
+              <div class="menu-veg-dot"></div>
+            </div>
+            <div class="menu-item-body">
+              <div class="menu-item-name">Hot Beverages</div>
+              <div class="menu-item-desc">
+                Masala chai, filter coffee, and seasonal warm sips
+              </div>
+              <div class="menu-item-footer">
+                <span class="menu-item-price">₹49–₹99</span>
+                <span class="menu-item-tag">Warm & Cosy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem" class="reveal">
+          <a href="pages/menu.html" class="btn btn-gold">View Full Menu →</a>
+          <p
+            style="
+              margin-top: 1rem;
+              font-size: 0.78rem;
+              color: rgba(244, 228, 188, 0.35);
+            "
+          >
+            Prices inclusive of taxes · All dishes 100% vegetarian
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ GALLERY ══════════════ -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 3rem">
+          <div class="section-tag" style="justify-content: center">
+            Our Space
+          </div>
+          <h2 class="section-title">
+            A Glimpse of <span class="gold">Culture Sky</span>
+          </h2>
+          <div class="gold-rule center"></div>
+          <p class="section-desc" style="margin: 0 auto; text-align: center">
+            From starlit evenings to golden mornings — every moment here is
+            frame-worthy.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Large featured -->
+          <div
+            class="gallery-cell span-2"
+            data-src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80&fit=crop"
+          >
+            <img
+              class="gallery-img"
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80&fit=crop"
+              alt="Rooftop dining ambience at Culture Sky Mathura"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'gallery-placeholder\' data-gen data-emoji=\'🌆\' data-label=\'Rooftop Night\' data-bg1=\'#0a0a0f\' data-bg2=\'#1a1208\'></div>'
+              "
+            />
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-label"
+                >✦ Rooftop Dining Experience</span
+              >
+            </div>
+          </div>
+
+          <div
+            class="gallery-cell tall"
+            data-src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80&fit=crop"
+          >
+            <img
+              class="gallery-img"
+              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80&fit=crop"
+              alt="Delicious food served at Culture Sky"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'gallery-placeholder\' data-gen data-emoji=\'🍽️\' data-label=\'Signature Dishes\' data-bg1=\'#1a0808\' data-bg2=\'#2d1010\'></div>'
+              "
+            />
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-label">✦ Signature Dishes</span>
+            </div>
+          </div>
+
+          <div
+            class="gallery-cell"
+            data-src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=800&q=80&fit=crop"
+          >
+            <img
+              class="gallery-img"
+              src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=800&q=80&fit=crop"
+              alt="Cafe seating at Culture Sky"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'gallery-placeholder\' data-gen data-emoji=\'☕\' data-label=\'Morning Vibes\' data-bg1=\'#0d0a05\' data-bg2=\'#1a1208\'></div>'
+              "
+            />
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-label">✦ Morning Vibes</span>
+            </div>
+          </div>
+
+          <div
+            class="gallery-cell"
+            data-src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80&fit=crop"
+          >
+            <img
+              class="gallery-img"
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80&fit=crop"
+              alt="Restaurant interior at Culture Sky"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'gallery-placeholder\' data-gen data-emoji=\'🪑\' data-label=\'Cosy Seating\' data-bg1=\'#0a0f1a\' data-bg2=\'#10151a\'></div>'
+              "
+            />
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-label">✦ Comfortable Seating</span>
+            </div>
+          </div>
+
+          <div
+            class="gallery-cell"
+            data-src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80&fit=crop"
+          >
+            <img
+              class="gallery-img"
+              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80&fit=crop"
+              alt="Pizza at Culture Sky rooftop cafe"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'gallery-placeholder\' data-gen data-emoji=\'🍕\' data-label=\'Our Pizza\' data-bg1=\'#1a0808\' data-bg2=\'#2d1010\'></div>'
+              "
+            />
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-label">✦ Our Special Pizza</span>
+            </div>
+          </div>
+
+          <div
+            class="gallery-cell"
+            data-src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&q=80&fit=crop"
+          >
+            <img
+              class="gallery-img"
+              src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&q=80&fit=crop"
+              alt="Friends dining at Culture Sky rooftop"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'gallery-placeholder\' data-gen data-emoji=\'🎉\' data-label=\'Celebrations\' data-bg1=\'#0a0812\' data-bg2=\'#150d20\'></div>'
+              "
+            />
+            <div class="gallery-overlay">
+              <span class="gallery-overlay-label"
+                >✦ Celebrations & Gatherings</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem" class="reveal">
+          <a href="pages/gallery.html" class="btn btn-outline"
+            >View Full Gallery →</a
+          >
+          <p
+            style="
+              margin-top: 1rem;
+              font-size: 0.8rem;
+              color: rgba(244, 228, 188, 0.3);
+            "
+          >
+            📸 Follow us on Instagram:
+            <a
+              href="https://www.instagram.com/cultureskyrooftopcafe/"
+              target="_blank"
+              rel="noopener"
+              style="color: var(--gold)"
+              >@cultureskyrooftopcafe</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ SERVICES ══════════════ -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 3.5rem">
+          <div class="section-tag" style="justify-content: center">
+            What We Offer
+          </div>
+          <h2 class="section-title">Our <span class="gold">Services</span></h2>
+          <div class="gold-rule center"></div>
+        </div>
+
+        <div class="grid-3">
+          <div class="service-card reveal" data-tilt>
+            <div class="service-icon-ring">🌆</div>
+            <div class="service-title">Rooftop Dining</div>
+            <p class="service-desc">
+              Relax under the open sky with beautiful city views of Mathura. A
+              truly unique and unforgettable dining atmosphere.
+            </p>
+          </div>
+          <div class="service-card reveal reveal-delay-1" data-tilt>
+            <div class="service-icon-ring">🎂</div>
+            <div class="service-title">Celebrations</div>
+            <p class="service-desc">
+              Birthdays, anniversaries, and special milestones — we help make
+              your moments truly memorable on our rooftop.
+            </p>
+          </div>
+          <div class="service-card reveal reveal-delay-2" data-tilt>
+            <div class="service-icon-ring">👥</div>
+            <div class="service-title">Group Gatherings</div>
+            <p class="service-desc">
+              Perfect space for friends, family meetups, college reunions, or
+              office parties under the open Mathura sky.
+            </p>
+          </div>
+          <div class="service-card reveal" data-tilt>
+            <div class="service-icon-ring">🛵</div>
+            <div class="service-title">Home Delivery</div>
+            <p class="service-desc">
+              Enjoy Culture Sky's favourite dishes delivered fresh and hot to
+              your doorstep within Mathura.
+            </p>
+          </div>
+          <div class="service-card reveal reveal-delay-1" data-tilt>
+            <div class="service-icon-ring">🥡</div>
+            <div class="service-title">Quick Takeaway</div>
+            <p class="service-desc">
+              Short on time? Pack your favourite dishes and enjoy them anywhere.
+              Quick and convenient pickup always available.
+            </p>
+          </div>
+          <div class="service-card reveal reveal-delay-2" data-tilt>
+            <div class="service-icon-ring">☀️</div>
+            <div class="service-title">All-Day Dining</div>
+            <p class="service-desc">
+              Open from breakfast at 9 AM all the way to late-night snacks at 1
+              AM. We're here whenever hunger strikes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ REVIEWS ══════════════ -->
+    <section id="reviews" class="reviews-section">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 3rem">
+          <div class="section-tag" style="justify-content: center">
+            What People Say
+          </div>
+          <h2 class="section-title">
+            Loved by <span class="gold">Mathura</span>
+          </h2>
+          <div class="gold-rule center"></div>
+        </div>
+
+        <div class="reviews-google-band reveal">
+          <span class="google-g">G</span>
+          <div>
+            <div class="g-number">4.7</div>
+            <div class="g-stars">★★★★★</div>
+            <div class="g-count">15 Google Reviews</div>
+          </div>
+        </div>
+
+        <div class="grid-3">
+          <div class="review-card reveal">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Must visit this restaurant. Hygienic and vegetarian fresh food.
+              Delicious taste. The rooftop view in the evening is absolutely
+              stunning!"
+            </p>
+            <div class="review-author-name">Google Reviewer</div>
+            <div class="review-author-type">Verified Google Review</div>
+          </div>
+          <div class="review-card reveal reveal-delay-1">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">
+              "Came with my family for my daughter's birthday. Wonderful
+              ambience, top-notch food quality, and the staff was so welcoming.
+              Will definitely return!"
+            </p>
+            <div class="review-author-name">Happy Guest</div>
+            <div class="review-author-type">Family Dining · Mathura</div>
+          </div>
+          <div class="review-card reveal reveal-delay-2">
+            <div class="review-stars">★★★★☆</div>
+            <p class="review-quote">
+              "Great rooftop experience in Mathura. The pizza and mocktails are
+              really good. Perfect place for a casual dinner with friends under
+              the open sky."
+            </p>
+            <div class="review-author-name">Local Food Lover</div>
+            <div class="review-author-type">Rooftop Dining Visit</div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem" class="reveal">
+          <a href="pages/reviews.html" class="btn btn-outline"
+            >See All Reviews →</a
+          >
+          <p style="margin-top: 1rem">
+            <a
+              href="https://g.page/r/review"
+              target="_blank"
+              rel="noopener"
+              style="color: var(--gold); font-size: 0.85rem; font-weight: 600"
+              >⭐ Write a Review on Google →</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ RESERVE TABLE ══════════════ -->
+    <section id="reserve" class="reserve-section">
+      <div class="container">
+        <div class="grid-2" style="gap: 5rem; align-items: start">
+          <!-- Left -->
+          <div class="reveal from-left">
+            <div class="section-tag">Book Your Spot</div>
+            <h2 class="section-title">
+              Reserve Your<br /><span class="gold">Rooftop Table</span>
+            </h2>
+            <div class="gold-rule"></div>
+            <p class="section-desc">
+              Make your evening special by booking in advance. We recommend
+              reservations for groups and celebrations so we can prepare the
+              perfect rooftop experience for you.
+            </p>
+
+            <div
+              style="
+                margin-top: 2rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+              "
+            >
+              <div class="reserve-contact-card">
+                <span class="rcc-icon">📞</span>
+                <div>
+                  <div class="rcc-label">Call to Reserve</div>
+                  <div class="rcc-value">
+                    <a href="tel:+919761119613">+91 97611 19613</a>
+                  </div>
+                </div>
+              </div>
+              <div class="reserve-contact-card">
+                <span class="rcc-icon">📱</span>
+                <div>
+                  <div class="rcc-label">Alternate Number</div>
+                  <div class="rcc-value">
+                    <a href="tel:+919041187949">+91 90411 87949</a>
+                  </div>
+                </div>
+              </div>
+              <div class="reserve-contact-card">
+                <span class="rcc-icon">💬</span>
+                <div>
+                  <div class="rcc-label">WhatsApp</div>
+                  <div class="rcc-value">
+                    <a
+                      href="https://wa.me/919761119613"
+                      target="_blank"
+                      rel="noopener"
+                      >Chat on WhatsApp</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="reserve-contact-card">
+                <span class="rcc-icon">📍</span>
+                <div>
+                  <div class="rcc-label">Address</div>
+                  <div class="rcc-value">
+                    Goverdhan Chauraha, Jai Shree Complex,<br />Krishna Nagar,
+                    Mathura – 281001
+                  </div>
+                </div>
+              </div>
+              <div class="reserve-contact-card">
+                <span class="rcc-icon">🕘</span>
+                <div>
+                  <div class="rcc-label">Open Hours</div>
+                  <div class="rcc-value">Daily · 9:00 AM – 1:00 AM</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="reserve-form-card reveal from-right">
+            <div class="reserve-form-title">Make a Reservation</div>
+            <form id="reserveForm" novalidate>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label">Your Name *</label>
+                  <input
+                    type="text"
+                    name="name"
+                    class="form-input"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Phone Number *</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    class="form-input"
+                    placeholder="+91 XXXXX XXXXX"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label">Date *</label>
+                  <input type="date" name="date" class="form-input" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Time</label>
+                  <input type="time" name="time" class="form-input" />
+                </div>
+              </div>
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label class="form-label">Guests</label>
+                  <select name="guests" class="form-input">
+                    <option>1 – 2 Guests</option>
+                    <option>3 – 4 Guests</option>
+                    <option>5 – 8 Guests</option>
+                    <option>9 – 15 Guests</option>
+                    <option>15+ Guests</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label">Occasion</label>
+                  <select name="occasion" class="form-input">
+                    <option>Regular Dining</option>
+                    <option>Birthday</option>
+                    <option>Anniversary</option>
+                    <option>Family Get-Together</option>
+                    <option>Friends Meetup</option>
+                    <option>Office Party</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group" style="margin-bottom: 1.25rem">
+                <label class="form-label">Special Requests</label>
+                <textarea
+                  name="note"
+                  class="form-input"
+                  placeholder="Any special seating, dietary needs, or celebration details..."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-gold"
+                style="
+                  width: 100%;
+                  justify-content: center;
+                  font-size: 1rem;
+                  padding: 1rem;
+                "
+              >
+                Confirm via WhatsApp →
+              </button>
+              <p
+                style="
+                  text-align: center;
+                  margin-top: 1rem;
+                  font-size: 0.75rem;
+                  color: rgba(244, 228, 188, 0.3);
+                "
+              >
+                We'll confirm your table within 30 minutes
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ LOCATION ══════════════ -->
+    <section id="location" class="location-section">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 3rem">
+          <div class="section-tag" style="justify-content: center">Find Us</div>
+          <h2 class="section-title">
+            We're <span class="gold">Easy to Find</span>
+          </h2>
+          <div class="gold-rule center"></div>
+        </div>
+
+        <div class="grid-2" style="gap: 3.5rem; align-items: start">
+          <div class="reveal from-left">
+            <div
+              style="
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                margin-bottom: 2rem;
+              "
+            >
+              <div class="reserve-contact-card">
+                <span class="rcc-icon">📍</span>
+                <div>
+                  <div class="rcc-label">Address</div>
+                  <div class="rcc-value">
+                    Goverdhan Chauraha, Jai Shree Complex,<br />Krishna Nagar,
+                    Mathura, UP – 281001
+                  </div>
+                </div>
+              </div>
+              <div class="reserve-contact-card">
+                <span class="rcc-icon">📞</span>
+                <div>
+                  <div class="rcc-label">Phone</div>
+                  <div class="rcc-value">
+                    <a href="tel:+919761119613">+91 97611 19613</a><br />
+                    <a href="tel:+919041187949">+91 90411 87949</a>
+                  </div>
+                </div>
+              </div>
+              <div class="reserve-contact-card">
+                <span class="rcc-icon">🕘</span>
+                <div>
+                  <div class="rcc-label">Hours</div>
+                  <div class="rcc-value">Open Daily · 9:00 AM – 1:00 AM</div>
+                </div>
+              </div>
+              <div class="reserve-contact-card">
+                <span class="rcc-icon">💰</span>
+                <div>
+                  <div class="rcc-label">Price Range</div>
+                  <div class="rcc-value">
+                    ₹200–₹400 per person · ~₹650 for two
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              href="https://maps.google.com/?q=Goverdhan+Chauraha+Jai+Shree+Complex+Krishna+Nagar+Mathura"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-gold"
+            >
+              📍 Get Directions →
+            </a>
+          </div>
+
+          <div class="reveal from-right">
+            <div class="map-frame">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3546.01!2d77.6886!3d27.4924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3973fb14d1f71c05%3A0x4a3b8d6d5e2c91!2sKrishna%20Nagar%2C%20Mathura%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Culture Sky Rooftop Cafe Location, Krishna Nagar Mathura"
+                style="filter: sepia(20%) saturate(80%) brightness(0.9)"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ INSTAGRAM FEED ══════════════ -->
+    <section class="insta-section">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 2.5rem">
+          <div class="section-tag" style="justify-content: center">
+            Follow Our Moments
+          </div>
+          <h2 class="section-title">
+            We're on <span class="gold">Instagram</span>
+          </h2>
+          <div class="gold-rule center"></div>
+          <p class="section-desc" style="margin: 0 auto; text-align: center">
+            Follow
+            <a
+              href="https://www.instagram.com/cultureskyrooftopcafe/"
+              target="_blank"
+              rel="noopener"
+              style="color: var(--gold); font-weight: 700"
+              >@cultureskyrooftopcafe</a
+            >
+            for daily specials, rooftop views, and happy moments.
+          </p>
+        </div>
+
+        <div class="insta-grid reveal">
+          <div class="insta-cell">
+            <img
+              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&q=80&fit=crop&crop=entropy"
+              alt="Food at Culture Sky"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'insta-cell-placeholder\'>🍛</div>'
+              "
+            />
+            <div class="insta-hover-overlay">📸</div>
+          </div>
+          <div class="insta-cell">
+            <img
+              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&q=80&fit=crop&crop=entropy"
+              alt="Pizza at Culture Sky"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'insta-cell-placeholder\'>🍕</div>'
+              "
+            />
+            <div class="insta-hover-overlay">📸</div>
+          </div>
+          <div class="insta-cell">
+            <img
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&q=80&fit=crop&crop=entropy"
+              alt="Rooftop ambience"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'insta-cell-placeholder\'>🌆</div>'
+              "
+            />
+            <div class="insta-hover-overlay">📸</div>
+          </div>
+          <div class="insta-cell">
+            <img
+              src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&q=80&fit=crop&crop=entropy"
+              alt="Restaurant interior"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'insta-cell-placeholder\'>🪑</div>'
+              "
+            />
+            <div class="insta-hover-overlay">📸</div>
+          </div>
+          <div class="insta-cell">
+            <img
+              src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=400&q=80&fit=crop&crop=entropy"
+              alt="Friends at Culture Sky"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'insta-cell-placeholder\'>🎉</div>'
+              "
+            />
+            <div class="insta-hover-overlay">📸</div>
+          </div>
+          <div class="insta-cell">
+            <img
+              src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?w=400&q=80&fit=crop&crop=entropy"
+              alt="Cafe at Culture Sky"
+              loading="lazy"
+              onerror="
+                this.parentElement.innerHTML =
+                  '<div class=\'insta-cell-placeholder\'>☕</div>'
+              "
+            />
+            <div class="insta-hover-overlay">📸</div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2rem" class="reveal">
+          <a
+            href="https://www.instagram.com/cultureskyrooftopcafe/"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-outline"
+          >
+            📸 Follow on Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ FAQ ══════════════ -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="text-center reveal" style="margin-bottom: 3rem">
+          <div class="section-tag" style="justify-content: center">
+            Got Questions?
+          </div>
+          <h2 class="section-title">
+            Frequently Asked <span class="gold">Questions</span>
+          </h2>
+          <div class="gold-rule center"></div>
+        </div>
+
+        <div style="max-width: 720px; margin: 0 auto" class="reveal">
+          <div class="faq-item">
+            <button class="faq-q">
+              Is Culture Sky 100% vegetarian?
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                Yes! Culture Sky is a 100% pure vegetarian restaurant. All
+                ingredients, cooking methods, and utensils are vegetarian with
+                zero cross-contamination. Safe and delicious for the whole
+                family.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              What are the opening hours?
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                We are open every day of the week from 9:00 AM to 1:00 AM,
+                including weekends and public holidays. We serve breakfast,
+                lunch, dinner, and late-night snacks all day long.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              Do you offer home delivery and takeaway?
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                Yes, both home delivery and takeaway are available. Call us at
+                +91 97611 19613 or WhatsApp us to place your order. We deliver
+                within Mathura city.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              What's the average cost for two people?
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                The average cost for two is approximately ₹650. Individual meals
+                start from ₹200 per person. We pride ourselves on offering
+                premium rooftop dining at budget-friendly prices.
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              Can I host a birthday or private event here?
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                Absolutely! Our rooftop is ideal for birthdays, anniversaries,
+                and group events. Please call us at least a day in advance to
+                arrange a special setup. We love making your moments memorable!
+              </div>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">
+              Where exactly is Culture Sky in Mathura?
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  fill-rule="evenodd"
+                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner">
+                We're located at Goverdhan Chauraha, Jai Shree Complex, Krishna
+                Nagar, Mathura, Uttar Pradesh – 281001. We're well-known in the
+                area and easily accessible. Search "Culture Sky Rooftop Cafe" on
+                Google Maps for directions.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════ FOOTER ══════════════ -->
+    <footer>
+      <div class="footer-inner">
+        <div>
+          <div class="footer-logo-name">Culture Sky</div>
+          <div class="footer-logo-tag">Rooftop Cafe · Mathura</div>
+          <p class="footer-desc">
+            Mathura's most loved vegetarian rooftop cafe. Exceptional food, warm
+            hospitality, and unforgettable views — all in the heart of Krishna
+            Nagar.
+          </p>
+          <div class="footer-socials">
+            <a
+              class="footer-social-btn"
+              href="https://www.instagram.com/cultureskyrooftopcafe/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+              title="Follow on Instagram"
+              >📸</a
+            >
+            <a
+              class="footer-social-btn"
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+              title="Follow on Facebook"
+              >📘</a
+            >
+            <a
+              class="footer-social-btn"
+              href="https://wa.me/919761119613"
+              target="_blank"
+              rel="noopener"
+              aria-label="WhatsApp"
+              title="WhatsApp us"
+              >💬</a
+            >
+            <a
+              class="footer-social-btn"
+              href="https://maps.google.com/?q=Culture+Sky+Rooftop+Cafe+Mathura"
+              target="_blank"
+              rel="noopener"
+              aria-label="Google Maps"
+              title="Find on Maps"
+              >📍</a
+            >
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigate</div>
+          <ul class="footer-links">
+            <li><a href="index.html">› Home</a></li>
+            <li><a href="#about">› About Us</a></li>
+            <li><a href="pages/menu.html">› Full Menu</a></li>
+            <li><a href="pages/gallery.html">› Gallery</a></li>
+            <li><a href="pages/reviews.html">› Reviews</a></li>
+            <li><a href="pages/contact.html">› Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Cuisine</div>
+          <ul class="footer-links">
+            <li><a href="pages/menu.html">› North Indian</a></li>
+            <li><a href="pages/menu.html">› Chinese</a></li>
+            <li><a href="pages/menu.html">› Pizza & Burger</a></li>
+            <li><a href="pages/menu.html">› Street Food</a></li>
+            <li><a href="pages/menu.html">› Continental</a></li>
+            <li><a href="pages/menu.html">› Shakes & Drinks</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Hours</div>
+          <div class="footer-hours-row">
+            <span>Mon – Sun</span>
+            <span class="footer-open-badge">Open</span>
+          </div>
+          <div
+            style="
+              font-size: 1rem;
+              font-weight: 700;
+              color: var(--cream);
+              margin-bottom: 0.5rem;
+            "
+          >
+            9:00 AM – 1:00 AM
+          </div>
+          <div
+            style="
+              font-size: 0.78rem;
+              color: rgba(244, 228, 188, 0.35);
+              margin-bottom: 1.5rem;
+            "
+          >
+            Including public holidays
+          </div>
+
+          <div class="footer-col-title">Contact</div>
+          <ul class="footer-links">
+            <li><a href="tel:+919761119613">📞 +91 97611 19613</a></li>
+            <li><a href="tel:+919041187949">📱 +91 90411 87949</a></li>
+            <li>
+              <a
+                href="https://wa.me/919761119613"
+                target="_blank"
+                rel="noopener"
+                >💬 WhatsApp</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <span
+          >© 2025 Culture Sky Rooftop Cafe, Mathura. All Rights Reserved.</span
+        >
+        <span>Goverdhan Chauraha, Krishna Nagar, Mathura – 281001</span>
+        <span>Made with ❤️ for Mathura's best rooftop</span>
+      </div>
+    </footer>
+
+    <!-- ══════════════ LIGHTBOX ══════════════ -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" aria-label="Close">✕</button>
+      <img class="lightbox-img" id="lightboxImg" src="" alt="Gallery image" />
+    </div>
+
+    <!-- ══════════════ FLOATING BUTTONS ══════════════ -->
+    <div class="float-whatsapp" id="floatBtns">
+      <button
+        class="float-btn float-top"
+        id="scrollTop"
+        title="Back to top"
+        aria-label="Scroll to top"
+      >
+        ↑
+      </button>
+      <a
+        class="float-btn float-call"
+        href="tel:+919761119613"
+        title="Call Now"
+        aria-label="Call Culture Sky"
+        >📞</a
+      >
+      <a
+        class="float-btn float-wa"
+        href="https://wa.me/919761119613?text=Hi!%20I%20want%20to%20know%20more%20about%20Culture%20Sky%20Rooftop%20Cafe%20🌆"
+        target="_blank"
+        rel="noopener"
+        title="WhatsApp"
+        aria-label="WhatsApp Culture Sky"
+        >💬</a
+      >
+    </div>
+
+    <!-- ══════════════ SCRIPTS ══════════════ -->
+    <script src="images.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
