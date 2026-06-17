@@ -1,69 +1,79 @@
 # 🌆 Culture Sky Rooftop Cafe
 
-A modern, premium, and fully responsive website for **Culture Sky Rooftop Cafe**, designed to showcase the cafe's rooftop ambience, delicious cuisine, gallery, menu, and customer experience.
+A modern and premium rooftop cafe website created for **Culture Sky Rooftop Cafe, Mathura**.
+
+The website is designed to showcase the cafe's luxury rooftop ambience, delicious food, modern interiors, menu highlights, and customer experience through a clean and responsive user interface.
 
 ---
 
 ## ✨ Features
 
-- Modern Premium UI/UX
-- Fully Responsive Design
+- Modern Premium Design
+- Fully Responsive Layout
 - Rooftop Cafe Showcase
-- Beautiful Hero Section
-- Food & Drinks Gallery
+- Food & Beverage Gallery
 - Interactive Menu Section
 - About Us Section
-- Contact & Location Information
-- Reservation / Booking CTA
-- Smooth Animations
-- SEO Friendly Structure
-- Mobile Optimized
+- Contact Information
+- Mobile Friendly Design
+- Fast Loading Performance
+- Smooth User Experience
 
 ---
 
-## 🚀 Tech Stack
+## 🛠 Tech Stack
 
-- React.js
-- Vite
-- Tailwind CSS
-- Framer Motion
-- JavaScript (ES6+)
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Custom CSS Components
+- Responsive Web Design
+- Vercel Deployment
+
+---
+
+## 📂 Project Structure
+
+```text
+Culture-Sky-Rooftop/
+│
+├── index.html
+├── main.js
+├── images.js
+├── style.css
+├── components.css
+└── README.md
+```
 
 ---
 
 ## 📸 Website Sections
 
-### 🏠 Home
+### Home
 
-Elegant hero section with premium rooftop cafe branding.
+Premium hero section highlighting the rooftop dining experience.
 
-### ℹ️ About
+### About
 
-Introduction to Culture Sky Rooftop Cafe and its unique dining experience.
+Introduction to Culture Sky Rooftop Cafe and its unique atmosphere.
 
-### 🍕 Menu
+### Gallery
 
-Food categories, beverages, snacks, and signature dishes.
+Beautiful rooftop views, food photography, and interior showcases.
 
-### 🖼 Gallery
+### Menu
 
-Beautiful rooftop ambience, food photography, and cafe interiors.
+Featured dishes, beverages, and cafe specialties.
 
-### 📞 Contact
+### Contact
 
-Location, phone number, social media links, and map integration.
+Location details, contact information, and customer inquiries.
 
 ---
 
-## 🎯 Project Goals
+## 🎯 Purpose
 
-The primary objective of this project is to create a luxury digital presence for Culture Sky Rooftop Cafe that:
-
-- Attracts new customers
-- Highlights the rooftop experience
-- Showcases food and ambience
-- Improves online visibility
-- Enhances customer engagement
+This project was created to establish a strong online presence for Culture Sky Rooftop Cafe and provide visitors with a visually engaging experience before visiting the cafe.
 
 ---
 
@@ -78,64 +88,58 @@ Optimized for:
 
 ---
 
-## 🛠 Installation
+## 🚀 Live Website
 
-### Clone the Repository
+https://cultureskyrooftop.vercel.app
+
+---
+
+## 💻 Run Locally
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/ravithakur776/Culture-Sky-Rooftop.git
 ```
 
-### Navigate to Project
+Open the project folder:
 
 ```bash
 cd Culture-Sky-Rooftop
 ```
 
-### Install Dependencies
+Launch the website:
 
 ```bash
-npm install
+open index.html
 ```
 
-### Start Development Server
-
-```bash
-npm run dev
-```
-
-### Build for Production
-
-```bash
-npm run build
-```
+or simply open `index.html` in your browser.
 
 ---
 
 ## 🌟 Highlights
 
-- Luxury Rooftop Cafe Branding
-- Modern UI/UX Design
-- Premium Animations
-- Fast Loading Performance
-- Mobile-First Responsive Layout
-- SEO-Friendly Structure
-- Optimized User Experience
+- Elegant Rooftop Cafe Branding
+- Luxury UI Design
+- Responsive Layout
+- Clean Code Structure
+- Optimized Performance
+- Easy Customization
 
 ---
 
-## 👨‍💻 Developed By
+## 👨‍💻 Developer
 
 **Ravi Thakur**
 
-Frontend Developer | React Developer | UI/UX Designer
-
-GitHub: https://github.com/ravithakur776
+GitHub:
+https://github.com/ravithakur776
 
 ---
 
 ## 📄 License
 
-This project is created for educational and commercial portfolio purposes.
+This project is intended for portfolio and business showcase purposes.
 
 © 2026 Culture Sky Rooftop Cafe. All Rights Reserved.
